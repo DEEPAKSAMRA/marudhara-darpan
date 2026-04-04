@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
         <h2 style={{fontSize:15,fontWeight:600,marginBottom:6,paddingBottom:4,borderBottom:'1px solid #E4E2DA'}}>6. Contact</h2>
         <div style={{padding:'12px 16px',background:'#FAEEDA',borderRadius:8,fontSize:14}}>
           <div><strong>App:</strong> Marudhara Darpan</div>
-          <div style={{marginTop:4}}><strong>Email:</strong> your[at]email.com</div>
+          <div style={{marginTop:4}}><strong>Email:</strong> junctionteacher@gmail.com</div>
           <div style={{marginTop:4}}><strong>Website:</strong> marudhara-darpan.vercel.app</div>
         </div>
       </div>
