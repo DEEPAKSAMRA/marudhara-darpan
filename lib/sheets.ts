@@ -11,7 +11,7 @@ const BASE     = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/valu
 async function fetchRange(range: string): Promise<string[][]> {
   const url = `${BASE}/${encodeURIComponent(range)}?key=${API_KEY}`;
   try {
-    const res = await fetch(url, { next: { revalidate: 3600 } }); // 1 hour cache
+    const res = await fetch(url, { next: { revalidate: 360 } }); // 1 hour cache
     if (!res.ok) return [];
     const json = await res.json();
     return json.values ?? [];
