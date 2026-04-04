@@ -15,8 +15,8 @@ export default function ContactUs() {
       <h1 style={{fontSize:22,fontWeight:700,marginBottom:20}}>Contact Us — हमसे संपर्क करें</h1>
       <p style={{fontSize:14,color:'#5F5E5A',marginBottom:24}}>सुझाव, त्रुटि सूचना, या सहयोग के लिए संपर्क करें।</p>
       {[
-        {icon:'📧',label:'Email',value:'your[at]email.com'},
-        {icon:'📱',label:'WhatsApp',value:'+91 XXXXX XXXXX'},
+        {icon:'📧',label:'Email',value:'junctionteacher@gmail.com'},
+        {icon:'📱',label:'WhatsApp',value:'+91 7014067853'},
         {icon:'📸',label:'Instagram',value:'@yourhandle'},
         {icon:'▶️',label:'YouTube',value:'Your Channel'},
       ].map((c,i)=>(
