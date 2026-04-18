@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.marudhara_darpan.twa",
+      "sha256_cert_fingerprints": [
+        "E6:C7:ED:FD:51:07:94:A1:F2:E4:6E:E4:C9:BF:9D:D1:25:88:84:9B:42:4A:27:5B:79:34:95:E0:2A:54:3C:53"
+      ]
+    }
+  }
+]
